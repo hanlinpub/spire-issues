@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoubleOpenAndSave", "Double
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xml2DocxBreaksEquation", "Xml2DocxBreaksEquation\Xml2DocxBreaksEquation.csproj", "{C79B4079-0936-4715-BDDB-100D1ACD7E9A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Issue-004", "Issue-004", "{C9B53C93-42F8-4C24-AA2A-B1309A23B617}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquationFieldCorruption", "Issue-004\EquationFieldCorruption\EquationFieldCorruption.csproj", "{78DFDD1E-CDF7-4F26-B16F-DEF32F781703}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,12 +33,17 @@ Global
 		{C79B4079-0936-4715-BDDB-100D1ACD7E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C79B4079-0936-4715-BDDB-100D1ACD7E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C79B4079-0936-4715-BDDB-100D1ACD7E9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78DFDD1E-CDF7-4F26-B16F-DEF32F781703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DFDD1E-CDF7-4F26-B16F-DEF32F781703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DFDD1E-CDF7-4F26-B16F-DEF32F781703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DFDD1E-CDF7-4F26-B16F-DEF32F781703}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{25C8F8F6-A16E-427D-A45A-A4DC17BC9A19} = {91895A81-EC47-40E3-9FF8-88033FA90F2F}
+		{78DFDD1E-CDF7-4F26-B16F-DEF32F781703} = {C9B53C93-42F8-4C24-AA2A-B1309A23B617}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CE0F75C5-F10B-4B14-90D3-C86198A0AAB1}
