@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EquationFieldCorruption", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Issue-005", "Issue-005", "{FE0432E4-5485-4605-9049-64C7F904A3E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquationBecomesImage", "Issue-005\EquationBecomesImage\EquationBecomesImage.csproj", "{CD01FBCE-785C-406C-85FE-5B8CA3B0F313}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EquationBecomesImage", "Issue-005\EquationBecomesImage\EquationBecomesImage.csproj", "{CD01FBCE-785C-406C-85FE-5B8CA3B0F313}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Issue-006-MathTypeSaveCorruption", "Issue-006-MathTypeSaveCorruption\Issue-006-MathTypeSaveCorruption.csproj", "{D37EF8CA-8264-4221-BF3E-C43A8B990A38}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{CD01FBCE-785C-406C-85FE-5B8CA3B0F313}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD01FBCE-785C-406C-85FE-5B8CA3B0F313}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD01FBCE-785C-406C-85FE-5B8CA3B0F313}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D37EF8CA-8264-4221-BF3E-C43A8B990A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D37EF8CA-8264-4221-BF3E-C43A8B990A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D37EF8CA-8264-4221-BF3E-C43A8B990A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D37EF8CA-8264-4221-BF3E-C43A8B990A38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
