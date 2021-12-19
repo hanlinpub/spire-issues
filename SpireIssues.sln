@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30406.217
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Issue-003", "Issue-003", "{91895A81-EC47-40E3-9FF8-88033FA90F2F}"
 EndProject
@@ -24,6 +24,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Issue-008", "Issue-008", "{3ED54DA9-8E13-428F-9DBE-5E9A76BCEA80}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocEquationDistortion", "Issue-008\DocEquationDistortion\DocEquationDistortion.csproj", "{E724066D-5B6A-4A60-8123-AF887692DAA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Issue-009-UpdateTableOfContentNotThreadSafe", "Issue-009-UpdateTableOfContentNotThreadSafe\Issue-009-UpdateTableOfContentNotThreadSafe.csproj", "{BC4D1A81-F265-4256-AA72-30EC8DC8F9C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +60,10 @@ Global
 		{E724066D-5B6A-4A60-8123-AF887692DAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E724066D-5B6A-4A60-8123-AF887692DAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E724066D-5B6A-4A60-8123-AF887692DAA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC4D1A81-F265-4256-AA72-30EC8DC8F9C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC4D1A81-F265-4256-AA72-30EC8DC8F9C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC4D1A81-F265-4256-AA72-30EC8DC8F9C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC4D1A81-F265-4256-AA72-30EC8DC8F9C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
